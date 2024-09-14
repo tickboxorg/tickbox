@@ -1,11 +1,13 @@
-import "./App.css";
+import { TodoList } from "./components/TodoList";
+import { Sidebar } from "./components/sidebar/Sidebar";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello, world</h1>
-    </>
+    <div className="bg-white dark:bg-zinc-800 grid grid-cols-[14rem_1fr] h-screen items-start">
+      <Sidebar />
+      <TodoList pageTitle="Today" />
+    </div>
   );
-}
+};
 
 export default App;
