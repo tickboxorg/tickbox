@@ -48,7 +48,7 @@ export const TodoList: React.FC<TodoListProps> = ({ pageTitle }) => {
     window.localStorage.setItem("todos", JSON.stringify(newTodos));
   };
 
-  const handleCancelTodoItem = (idx: number) => {};
+  const handleCancelTodoItem = (_: number) => {};
 
   const handleAddTodoItem = (title: string, notes: string) => {
     setShowNewTodo(false);

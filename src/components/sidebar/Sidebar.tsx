@@ -1,8 +1,8 @@
 import {
-  DocumentCheckIcon,
-  InboxIcon,
+  //   DocumentCheckIcon,
+  //   InboxIcon,
   StarIcon,
-  TrashIcon,
+  //   TrashIcon,
 } from "@heroicons/react/24/solid"; // Import solid versions of icons
 import { SidebarItem } from "./SidebarItem";
 

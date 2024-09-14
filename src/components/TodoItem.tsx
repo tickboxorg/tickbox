@@ -14,7 +14,7 @@ export const TodoItem: React.FC<TodoItemProps> = ({
   title,
   completedAt,
   onComplete,
-  onCancel,
+  //   onCancel,
 }) => {
   const [isChecked, setIsChecked] = useState<boolean>(false);
 
